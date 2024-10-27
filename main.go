@@ -1,8 +1,8 @@
 package main
 
-import "github.com/ko9motu/go-concurrency/errorHandling"
+import "github.com/ko9motu/go-concurrency/pipeline"
 
 func main() {
 	// enter the function I want to execute
-	errorHandling.Example2()
+	pipeline.UseCaseToString()
 }

@@ -32,7 +32,7 @@ func APGorutineWriteChannel() {
 	}
 }
 
-func GorutineWriteChannel() {
+func GorotineWriteChannel() {
 	newRandCh := func(done <-chan interface{}) <-chan int {
 		randCh := make(chan int)
 		go func() {
