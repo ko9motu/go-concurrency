@@ -1,8 +1,8 @@
 package main
 
-import "github.com/ko9motu/go-concurrency/channel"
+import "github.com/ko9motu/go-concurrency/concurrencypattern"
 
 func main() {
 	// enter the function I want to execute
-	channel.SelectExample4()
+	concurrencypattern.GorutineWriteChannel()
 }
