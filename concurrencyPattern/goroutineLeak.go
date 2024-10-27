@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func GorutineLeak() {
+func GoroutineLeak() {
 	dowork := func(strings <-chan string) <-chan interface{} {
 		completed := make(chan interface{})
 
@@ -25,7 +25,7 @@ func GorutineLeak() {
 	fmt.Println("Done.")
 }
 
-func AvoidGorutineLeak() {
+func AvoidGoroutineLeak() {
 	dowork := func(
 		done <-chan interface{},
 		strings <-chan string,
