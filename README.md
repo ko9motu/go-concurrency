@@ -1,2 +1,3 @@
 # go-concurrency
-paractice go-concurrency
+
+practice go-concurrency
