@@ -11,3 +11,5 @@ replace github.com/ko9motu/go-concurrency/concurrency => ../concurrencypattern
 replace github.com/ko9motu/go-concurrency/errorHandling => ../errorHandling
 
 replace github.com/ko9motu/go-concurrency/pipeline => ../pipeline
+
+replace github.com/ko9motu/go-concurrency/memo => ../memo
